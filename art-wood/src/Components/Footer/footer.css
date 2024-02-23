@@ -8,12 +8,68 @@
     -webkit-box-shadow: 0px 0px 20px 0px rgba(255,255,255,0.75);
     -moz-box-shadow: 0px 0px 20px 0px rgba(255,255,255,0.75);
 }
+
 .footer-items {
     height: 185px;
+    display: flex;
+    justify-content: center;
 }
+
 .footer-logo {
-    width: 350px;
-    
+    width: 20%;
+    display: flex;
+    justify-content: start;
+    /* align-items: center; */
+    margin-top: 50px;
+
+}
+.footer-logo img{
+    width: 200px;
+    height: 65px;
+}
+
+.footer-order {
+    width: 15%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer-work {
+    width: 15%;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.footer-contract {
+    width: 30%;
+    margin: 40px 40px 0 0 ;
+}
+.footer-contract div{
+    display: flex;
+    align-items: center;
+}
+.footer-phone {
+    margin-bottom: 10px;
+}
+.footer-phone img{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+.footer-phone p{
+    font-size: 1.3rem;
+}
+
+.footer-location img {
+    width: 25px;
+    height: 33px;
+    margin-left: 10px;
+
+}
+.footer-location p{
+    font-size: 1rem;
+
 }
 .copy {
     height: 50px;
@@ -21,4 +77,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+.footer-order p , .footer-work p , .footer-phone p , .footer-location p  , .copy p{
+    font-weight: 200;
+
 }
