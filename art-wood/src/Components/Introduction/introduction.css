@@ -1,0 +1,23 @@
+.introduction-img{
+    width: 58%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.introduction-img img{
+    width: 100%;
+}
+.introduction{
+    width: 80%;
+    background-color: #1E0C06;
+    color: white;
+    padding: 40px;
+}
+.introduction-text{
+    width: 525px;
+}
+.introduction-text p{
+    margin-top: 35px;
+    text-align: justify;
+}
