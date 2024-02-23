@@ -1,9 +1,12 @@
 import React from "react"
 import "./header.css"
 import logo from "../Assets/logo.png"
+import backgroundImg from "../Assets/background.png"
 
 const Header =()=>{
     return(
+        <>
+        <div className="background-img"><img src={backgroundImg} alt="" /></div>
         <div className="header">
             <div className="header-logo">
                 <img src={logo} alt=""></img>
@@ -15,6 +18,7 @@ const Header =()=>{
                 <li><a href="#">درباره ما</a></li>
             </ul>
         </div>
+        </>
     )
 }
 

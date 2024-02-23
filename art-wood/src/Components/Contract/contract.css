@@ -1,0 +1,44 @@
+.contract {
+    width: 80%;
+    height: 330px;
+    background-color: #1E0C06;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 40px;
+    color: white;
+    display: flex;
+}
+.contract-text {
+    width: 70%;
+    margin: 80px 0 0 0;
+    padding: 0 50px 0 20px;
+}
+.contract-text p {
+    margin: 20px 0 0 0;
+}
+.contract-social {
+    width: 30%;
+    padding:  120px 0 0 60px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: end; */
+}
+.contract-social div{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin: 10px 0 ;
+}
+.contract-social p{
+    font-size: 1.5rem;
+}
+.contract-telegram , .contract-instagram , .contract-whatsApp , .contract-phone {
+    width: 35px;
+    height: 35px;
+}
+.contract-telegram {
+    margin: 0 10%;
+}
+.contract-phone {
+    margin: 0 8% 0 0 ;
+}   

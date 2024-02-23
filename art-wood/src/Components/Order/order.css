@@ -1,0 +1,46 @@
+.order-main-div {
+    width: 80%;
+    height: 2200px;
+    margin: auto;
+    position: relative;
+    color: white;
+}
+.order-right{
+    position: absolute;
+    right: 20px;
+}
+.dream , .design , .quality , .warranty {
+    width: 100%;
+}
+.dream {
+    position: absolute;
+    right: 80px;
+    top : 40px
+}
+.design {
+    position: absolute;
+    right: 80px;
+    top: 635px;
+}
+.quality {
+    position: absolute;
+    right: 80px;
+    top: 1145px;
+}
+.warranty {
+    position: absolute;
+    right: 80px;
+    top: 1835px;
+}
+.dream div, .design div, .quality div , .warranty div{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 0 0;
+}
+
+.dream p, .design p, .quality p{
+    width: 65%;
+}
+.dream p, .design p, .quality p , .warranty p{
+    line-height: 40px;
+}
