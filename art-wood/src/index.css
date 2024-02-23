@@ -5,13 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("./Components/Assets/background.png");
+  /* background-image: url("./Components/Assets/background.png");
   background-size: cover;
   background-position: center center;
-  height: 7381px;
+  height: 7381px; */
   background-color: #222021;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
