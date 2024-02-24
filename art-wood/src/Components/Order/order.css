@@ -43,4 +43,6 @@
 }
 .dream p, .design p, .quality p , .warranty p{
     line-height: 40px;
+    font-weight: 200;
+
 }
