@@ -13,8 +13,8 @@ const Introduction =()=>{
             </div>
             <div className="introduction">
                 <div className="introduction-text">
-                    <h1 className="lh-lg h2 zi-1">طراحی آشپزخانه ی خود را به تیم آرت چوب بسپارید</h1>
-                    <p className="lh-lg leady fw-light zi-1">تیم آرت چوب طی سالها همواره کوشیده تا خود را بروز نگهدارد و بهترین و زیباترین ها را برای مشتریان خود رقم بزند .تولید کننده انواع کابینت آشپزخانه کمد دیواری و درب های چوبی ساختمان در تهران.</p>
+                    <h1 className="lh-lg h2">طراحی آشپزخانه ی خود را به تیم آرت چوب بسپارید</h1>
+                    <p className="lh-lg leady fw-light">تیم آرت چوب طی سالها همواره کوشیده تا خود را بروز نگهدارد و بهترین و زیباترین ها را برای مشتریان خود رقم بزند .تولید کننده انواع کابینت آشپزخانه کمد دیواری و درب های چوبی ساختمان در تهران.</p>
                     <button className="order-btn">نحوه سفارش</button>
                 </div>
                 <div className="introduction-imgs">

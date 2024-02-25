@@ -14,7 +14,7 @@ const Header =()=>{
     }
     return(
         <>
-        <div className="background-img"><img src={backgroundImg} alt="" /></div>
+        {/* <div className="background-img"><img src={backgroundImg} alt="" /></div> */}
         <div className="header">
             <div className="header-logo">
                 <img src={logo} alt=""></img>
