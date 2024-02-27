@@ -132,15 +132,16 @@
         padding-left: 0;
     }
     .introduction-text h1{
-        font-size: 1.6em !important;
+        font-size: 1.5em ;
     }
     .introduction-text p{
         margin-top: 20px;
-        font-size: .1em !important;
+        font-size: .9em ;
         text-align: center;
     }
     .introduction-text button{
-        margin-top: 30px;
+        margin-top: 25px;
+        font-size: .9em;
     }
     .introduction-imgs{
         display: none;
