@@ -7,6 +7,9 @@
     border-radius: 40px;
     color: white;
     display: flex;
+    box-shadow: 0px 0px 30px -5px rgba(244,244,244,0.75);
+    -webkit-box-shadow: 0px 0px 30px -5px rgba(244,244,244,0.75);
+    -moz-box-shadow: 0px 0px 30px -5px rgba(244,244,244,0.75);
 }
 .contract-text {
     width: 70%;
@@ -19,7 +22,7 @@
 }
 .contract-social {
     width: 30%;
-    padding:  120px 0 0 60px;
+    padding:  120px 0 0 7%;
     /* display: flex;
     flex-direction: column;
     align-items: end; */
@@ -44,3 +47,39 @@
 .contract-phone {
     margin: 0 8% 0 0 ;
 }   
+@media (max-width : 1200px) {
+    .contract-text {
+        width: 65%;
+    }
+    .contract-social {
+        width: 35%;
+    }
+    .contract-social {
+        padding:  120px 0 0 4%;
+    }
+}
+@media (max-width : 992px) {
+    .contract {
+        width: 80%;
+        height: 300px;
+    }
+    .contract-text h1 {
+        font-size: 1.7rem;
+    }
+    .contract-text p {
+        font-size: .9rem;
+    }
+    .contract-social p{
+        font-size: 1.3rem;
+        font-weight: 200;
+    }
+    .contract-social {
+        padding:  120px 0 0 4%;
+    }
+    .contract-telegram , .contract-instagram , .contract-whatsApp , .contract-phone {
+        width: 30px;
+        height: 30px;
+    }
+}
+@media (max-width : 768px) {
+}
