@@ -82,4 +82,48 @@
     }
 }
 @media (max-width : 768px) {
+    .contract {
+        display:  block;
+        text-align: center;
+        border-radius: 20px;
+    }
+    .contract-text  {
+        width: 100%;
+        /* margin: auto; */
+        padding: 25px 10%;
+    }
+    .contract-text h1 {
+        margin: 20px 0;
+    }
+    .contract-social {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 0 0 0;
+    }
+    .contract-social div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 0px 0 ;
+    }
+}
+@media (max-width : 550px) {
+    .contract {
+        width: 80%;
+        height: 330px;
+    }
+    .contract-social {
+        display: block;
+        padding: 0;
+    }
+    .contract-social div{
+        margin: 10px 0;
+    }
+    .contract-telegram {
+        margin: 0 6%;
+    }
+    .contract-phone {
+        margin: 0 4% 0 0 ;
+    }  
 }

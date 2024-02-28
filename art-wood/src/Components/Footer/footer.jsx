@@ -8,21 +8,21 @@ const Footer =()=>{
     return(
         <div className="footer">
             <div className="footer-items">
-                <div className="footer-logo">
+                <div className="footer-logo gb1">
                     <img src={logo}/>
                 </div>
-                <div className="footer-order">
-                    <h3>نحوه سفارش</h3>
+                <div className="footer-order gb2">
+                    <h4>نحوه سفارش</h4>
                     <p>درباره ما</p>
                     <p>ارتبارط با ما</p>
                 </div>
-                <div className="footer-work">
-                    <h3>نمونه کار ها</h3>
+                <div className="footer-work gb3">
+                    <h4>نمونه کار ها</h4>
                     <p>کلاسیک</p>
                     <p>مدرن</p>
                     <p>مدرن</p>
                 </div>
-                <div className="footer-contract">
+                <div className="footer-contract gb4">
                     <div  className="footer-phone">
                         <img src={phone}/>
                         <p>0912 593 3878</p>
