@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Header/>
-      {/* <Introduction/> */}
+      <Introduction/>
       <Order/>
       <Contract/>
       <WorkSample/>

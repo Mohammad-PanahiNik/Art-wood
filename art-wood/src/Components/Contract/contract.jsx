@@ -7,7 +7,7 @@ import phone from "../Assets/phone.png"
 
 const Contract =()=>{
     return(
-        <div className="contract">
+        <div data-aos="fade-up" data-aos-duration="500" className="contract">
             <div className="contract-text">
                 <h1>ارتباط با تیم ما</h1>
                 <p>برای ارتباط با تیم و دریافت مشاوره رایگان در رابطه با طراحی ، هزینه ،نحوه انجام کار ،جنس و ... شما میتوانید از طریق راه های ارتباطی زیر با ما در ارتباط باشید.</p>

@@ -10,6 +10,7 @@ body {
   background-position: center center;
   height: 7381px;
   background-color: #222021;
+  overflow-x: hidden;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

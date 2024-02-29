@@ -13,7 +13,7 @@ const AboutUs =()=>{
             </div>
             <div className="about-us-imgs">
                 <img src={about1} alt="" className="about-imgs about-img2"/>
-                <img src={about2} alt="" className="about-imgs about-img1"/>
+                <img zsrc={about2} alt="" className="about-imgs about-img1"/>
                 <img src={about3} alt="" className="about-imgs about-img3"/>
             </div>
         </div>

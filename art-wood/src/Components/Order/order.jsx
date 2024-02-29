@@ -9,7 +9,7 @@ const Order =()=>{
     return(
         <div className="order-main-div">
             <img src={order} className="order-right"/>
-            <div className="property dream">
+            <div data-aos="fade-left" data-aos-duration="700"  className="property dream">
                 <h2>تحقق رویاهای شما</h2>
                 <div>
                     <p>
@@ -18,7 +18,7 @@ const Order =()=>{
                     <img src={dream}/>
                 </div>
             </div>
-            <div className="property design">
+            <div data-aos="fade-left" data-aos-duration="700" className="property design">
                 <h2>طراحی منحصر به فرد</h2>
                 <div>
                     <p>
@@ -27,7 +27,7 @@ const Order =()=>{
                     <img src={design}/>
                 </div>
             </div>
-            <div className="property quality">
+            <div data-aos="fade-left" data-aos-duration="700" className="property quality">
                 <h2>کنترل کیفیت محصولات</h2>
                 <div>
                     <p>
@@ -36,7 +36,7 @@ const Order =()=>{
                     <img src={quality}/>
                 </div>
             </div>
-            <div className="property warranty">
+            <div data-aos="fade-left" data-aos-duration="700" className="property warranty">
                 <h2>دوسال گارانتی محصولات</h2>
                 <p>
                     گارانتی دو سال محصولات فرم چوب : تمامی محصولات و تولیدات شرکت فرم چوب به مدت دوسال شامل گارانتی می باشد و این اطمینان را برای مشتریان فراهم میکند که در صورت هرگونه مشکلی میتوانند با کارشناسان ما تماس حاصل فرمایند

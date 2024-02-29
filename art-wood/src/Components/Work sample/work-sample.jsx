@@ -22,8 +22,8 @@ const WorkSample =()=>{
         <div className="work-sample">
             <div className="work-text">
                 <h2>نمونه کار های آرت وود</h2>
-            </div>
-            <div className="work-images">
+            </div>  
+            <div className="work-images slider-1">
                 <Image img={img1} classs="gb1"/>
                 <Image img={img2} classs="gb2"/>
                 <Image img={img3} classs="gb3"/>
@@ -33,6 +33,7 @@ const WorkSample =()=>{
                 <Image img={img7} classs="gb7"/>
                 <Image img={img8} classs="gb8"/>
             </div>
+
         </div>
     )
 }
