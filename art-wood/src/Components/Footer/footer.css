@@ -81,6 +81,7 @@
 }
 .copy p {
     text-align: center;
+    margin: 0;
 }
 .footer-order p , .footer-work p , .footer-phone p , .footer-location p  , .copy p{
     font-weight: 200;
@@ -185,7 +186,10 @@
 }
 @media (max-width :550px) {
     .footer {
-        height: 520px;
+        height: 550px;
+    }
+    .copy {
+        height: 80px;
     }
     .footer-items {
         height: 470px;
