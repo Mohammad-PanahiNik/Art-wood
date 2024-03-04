@@ -10,9 +10,9 @@ const Contract =()=>{
         <div data-aos="fade-up" data-aos-duration="500" className="contract">
             <div className="contract-text">
                 <h1>ارتباط با تیم ما</h1>
-                <p>برای ارتباط با تیم و دریافت مشاوره رایگان در رابطه با طراحی ، هزینه ،نحوه انجام کار ،جنس و ... شما میتوانید از طریق راه های ارتباطی زیر با ما در ارتباط باشید.</p>
+                <p className="lh-lg mt-4">برای هر گونه سوال یا مشاوره رایگان در زمینه طراحی، هزینه، روش انجام کار، مواد استفاده شده و سایر موارد، خوشحال می‌شویم که با تیم آرت چوب در تماس باشید. می‌توانید از طریق راه‌های ارتباطی با ما تماس بگیرید:</p>
             </div>
-            <div className="contract-social">
+            <div className="contract-social mt-4">
                 <div>
                     <img src={instagram} className="contract-instagram"/>
                     <img src={telegram} className="contract-telegram"/>

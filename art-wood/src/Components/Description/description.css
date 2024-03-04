@@ -1,0 +1,97 @@
+.order-main-div {
+    width: 80%;
+    height: 2200px;
+    margin: auto;
+    position: relative;
+    color: white;
+}
+.order-right{
+    position: absolute;
+    right: 20px;
+}
+.property{
+    position: absolute;
+    right: 80px;
+    width: 100%;
+}
+.dream {
+    top : 40px
+}
+.design {
+    top: 635px;
+}
+.quality {
+    top: 1145px;
+}
+.warranty {
+    top: 1835px;
+}
+.property div{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 0 0;
+}
+
+.dream p, .design p, .quality p{
+    width: 65%;
+}
+.property p{
+    line-height: 40px;
+    font-weight: 200;
+}
+.dream img, .design img, .quality img{
+    width: 25%;
+    height: 100%;
+}
+@media (max-width : 1200px) {
+    .order-main-div {
+        margin: 30px;
+    }
+    .dream p, .design p, .quality p{
+        width: 50%;
+    }
+    .property p{
+        line-height: 30px;
+    }
+    .dream img, .design img, .quality img{
+        width: 35%;
+    }
+}
+@media (max-width : 992px) {
+    .order-main-div {
+        margin: 0;
+    }
+    .property p{
+        line-height: 25px;
+    }
+    .property h2 {
+        font-size: 1.7rem;
+    }
+    .dream img, .design img, .quality img{
+        width: 40%;
+    }
+    /* .dream div, .design div, .quality div , .warranty div{ */
+}
+@media (max-width : 768px) {
+    .property div {
+        display: block;
+    }
+    .dream p, .design p, .quality p{
+        width: 100%;
+    }
+    .dream img, .design img, .quality img{
+        display: none;
+    }
+}
+@media (max-width : 550px) {
+    .order-right{
+        width: 30px;
+        height: 2012px;
+    }
+    .property {
+        right: 60px;
+    }
+    .property p {
+        font-size: 1rem;
+    }
+}

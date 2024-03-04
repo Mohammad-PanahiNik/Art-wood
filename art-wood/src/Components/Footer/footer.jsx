@@ -29,7 +29,7 @@ const Footer =()=>{
                     </div>
                     <div  className="footer-location">
                         <img src={location}/>
-                        <p>تهرانپارس – جاده آبعلی – خیابان اتحاد – نبش خیابان 13 غربی ، پلاک 38 و 40n</p>
+                        <p className="lh-lg">تهرانپارس – جاده آبعلی – خیابان اتحاد – نبش خیابان 13 غربی ، پلاک 38 و 40n</p>
                     </div>
                 </div>
             </div>

@@ -15,7 +15,7 @@
     justify-content: space-between;
     background-color: #1E0C06;
     color: white;
-    padding: 50px;
+    padding: 30px 50px;
     margin-top: 40px;
     margin-bottom: 400px;
     border-top-left-radius: 40px;
@@ -27,7 +27,7 @@
 .introduction-text{
     width: 55%;
     border-left: 1px solid #F5F5F5;
-    padding-left: 80px;
+    padding-left: 60px;
 }
 .introduction-text p{
     margin-top: 35px;
@@ -42,7 +42,7 @@
     transition: all .5s;
     cursor: pointer;
     border-radius: 15px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .order-btn:hover{
     background-color: #fdebaeb4;
