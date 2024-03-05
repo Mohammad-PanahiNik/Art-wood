@@ -95,12 +95,7 @@
     }
 }
 @media (max-width : 550px) {
-    .order-right{
-        width: 30px;
-        height: 2012px;
-    }
     .property {
-        right: 60px;
         margin: 75px 0;
     }
     .property p {
