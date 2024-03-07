@@ -7,7 +7,7 @@ import phone from "../Assets/phone.png"
 
 const Contract =()=>{
     return(
-        <div data-aos="fade-up" data-aos-duration="500" className="contract">
+        <div id="contract" data-aos="fade-up" data-aos-duration="500" className="contract">
             <div className="contract-text">
                 <h1>ارتباط با تیم ما</h1>
                 <p className="lh-lg mt-4">برای هر گونه سوال یا مشاوره رایگان در زمینه طراحی، هزینه، روش انجام کار، مواد استفاده شده و سایر موارد، خوشحال می‌شویم که با تیم آرت چوب در تماس باشید. می‌توانید از طریق راه‌های ارتباطی با ما تماس بگیرید:</p>

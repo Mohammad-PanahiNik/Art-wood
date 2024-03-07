@@ -25,15 +25,15 @@ const Footer =()=>{
                 <div className="footer-contract gb4">
                     <div  className="footer-phone">
                         <img src={phone}/>
-                        <p>0912 593 3878</p>
+                        <p>3878 593 0912 - 1874 586 0912</p>
                     </div>
                     <div  className="footer-location">
                         <img src={location}/>
-                        <p className="lh-lg">تهرانپارس – جاده آبعلی – خیابان اتحاد – نبش خیابان 13 غربی ، پلاک 38 و 40n</p>
+                        <p className="lh-lg">تهران، شهرک صنعتی خاوران، شهرک چوبستانه، چوبستانه3، پلاک5076</p>
                     </div>
                 </div>
             </div>
-            <div className="copy">
+            <div className="copy lh-lg">
                 <p>تمام حقوق وب سایت متعلق به تیم آرت وود می باشد @ طراحی و برنامه نویسی نویسی رویتک</p>
             </div>
         </div>

@@ -56,7 +56,7 @@ const WorkSample =()=>{
         }
     }
     return(
-        <div className="work-sample">
+        <div id="samples" className="work-sample">
             <div className="work-text">
                 <h1>نمونه کار های آرت وود</h1>
             </div>  

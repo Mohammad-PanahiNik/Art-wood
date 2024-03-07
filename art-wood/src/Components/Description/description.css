@@ -1,5 +1,5 @@
 .order-main-div {
-    width: 80%;
+    width:1200px;
     height: 2200px;
     margin: auto;
     position: relative;
@@ -43,6 +43,12 @@
     width: 25%;
     height: 100%;
 }
+
+@media screen and (max-width: 1400px) {
+    .order-main-div{
+        width: 80%;
+    }
+}
 @media (max-width : 1200px) {
     .order-main-div {
         margin: 30px;
@@ -75,6 +81,8 @@
 @media (max-width : 768px) {
     .order-main-div {
         margin: auto;
+        height: auto;
+        margin-bottom: 150px;
     }
     .property {
         position:unset;

@@ -12,9 +12,12 @@ const Header =()=>{
     const sideMenuClose = ()=>{
         document.querySelector(".header-list").style.left="-100%"
     }
+    window.addEventListener("scroll" , ()=>{
+        document.querySelector(".header").classList.toggle("sticky",window.scrollY > 0)
+    })
+
     return(
         <>
-        {/* <div className="background-img"><img src={backgroundImg} alt="" /></div> */}
         <div className="header">
             <div className="header-logo">
                 <img src={logo} alt=""></img>
@@ -30,10 +33,9 @@ const Header =()=>{
                         <img src={closeImg} alt=""></img>
                     </button>
                 </li>
-                <li><a href="#">نحوه سفارش</a></li>
-                <li><a href="#">ارتباط با ما</a></li>
-                <li><a href="#">نمونه کار ها</a></li>
-                <li><a href="#">درباره ما</a></li>
+                <li><a onClick={sideMenuClose} href="#contract">ارتباط با ما</a></li>
+                <li><a onClick={sideMenuClose} href="#samples">نمونه کار ها</a></li>
+                <li><a onClick={sideMenuClose} href="#about">درباره ما</a></li>
             </ul>
             <button onClick={sideMenuOpen} className="menu-btn"><img id="menuImg" src={menuBtnImg} alt="" /></button>
         </div>

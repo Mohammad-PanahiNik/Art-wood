@@ -25,7 +25,7 @@
     cursor: pointer;
 }
 .slider{
-    width: 65%;
+    width: 1000px;
     margin: auto;
     overflow: hidden;
     height: 1400px;
@@ -103,8 +103,11 @@
     grid-area: gb8;
 }
 
-
-
+@media screen and (max-width: 1400px) {
+    .slider{
+        width: 70%;
+    }
+}
 @media (max-width : 1200px) {
     .slider {
         width: 80%;

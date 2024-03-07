@@ -1,5 +1,5 @@
 .contract {
-    width: 80%;
+    width: 1200px;
     height: 330px;
     background-color: #1E0C06;
     margin: auto;
@@ -47,6 +47,11 @@
 .contract-phone {
     margin: 0 8% 0 0 ;
 }   
+@media screen and (max-width: 1400px) {
+    .contract{
+        width: 80%;
+    }
+}
 @media (max-width : 1200px) {
     .contract-text {
         width: 65%;
@@ -86,7 +91,7 @@
         display:  block;
         text-align: center;
         border-radius: 20px;
-        height:350px;
+        height:330px;
     }
     .contract-text  {
         width: 100%;
@@ -101,6 +106,7 @@
         display: flex;
         justify-content: space-between;
         padding: 30px 0 0 0;
+        margin: 0 !important;
     }
     .contract-social div{
         width: 100%;
@@ -112,7 +118,8 @@
 @media (max-width : 550px) {
     .contract {
         width: 80%;
-        height: 420px;
+        /* height: 420px; */
+        height: auto;
     }
     .contract-social {
         display: block;

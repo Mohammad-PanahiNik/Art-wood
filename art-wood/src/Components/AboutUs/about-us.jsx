@@ -6,8 +6,8 @@ import about3 from "../Assets/about-3.png"
 
 const AboutUs =()=>{
     return(
-        <div className="about-container">
-            <div className="about-us" data-aos="fade-right" data-aos-duration="700">
+        <div id="about" className="about-container">
+            <div className="about-us" data-aos="fade-right" >
                 <div className="about-us-text">
                     <h1 className="lh-lg h2 zi-1">درباره ما</h1>
                     <p className="lh-lg leady fw-light zi-1">
@@ -15,9 +15,9 @@ const AboutUs =()=>{
                     </p>                
                 </div>
                 <div className="about-us-imgs">
-                    <img src={about1} alt="" className="about-imgs about-img2"/>
-                    <img src={about2} alt="" className="about-imgs about-img1"/>
-                    <img src={about3} alt="" className="about-imgs about-img3"/>
+                    <img src={about2} alt="" className="about-imgs about-img2"/>
+                    <img src={about3} alt="" className="about-imgs about-img1"/>
+                    <img src={about1} alt="" className="about-imgs about-img3"/>
                 </div>
             </div>
         </div>
